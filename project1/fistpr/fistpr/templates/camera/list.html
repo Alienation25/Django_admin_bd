@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}Статья{% endblock %}
+{% block content %}
+    Инфо
+    {%if list_info%}
+        {%for a in list_info%}
+            <p>{{a}}</p>
+        {%endfor%}
+
+    {%else%}
+    ничего нет
+    {%endif%}
+
+{% endblock %}

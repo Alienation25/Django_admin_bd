@@ -1,0 +1,67 @@
+создание (
+django-admin startproject myfist
+
+
+)
+
+
+
+
+Activ virtulenv(
+cd C:\Users\HOME_PC_MEDIA\Desktop\Django\vevn\Scripts
+activate
+}
+
+
+on server(
+cd C:\Users\HOME_PC_MEDIA\Desktop\Django\project1\fistpr
+python manage.py runserver
+)
+
+
+
+python manage.py startapp (EditName)
+
+
+BD{
+
+
+python manage.py makemigrations camera сохраненние миграции
+
+
+
+python manage.py sqlmigrate camera 0001 номер и версия
+
+
+
+python manage.py migrate  включение и применение  
+
+python manage.py shell
+
+
+}
+
+
+
+CreatesuperUser{
+
+
+python manage.py createsuperuser
+
+
+
+
+}
+
+
+Django-grappelis
+{
+python manage.py collectstatic
+
+
+}
+
+
+
+
+
